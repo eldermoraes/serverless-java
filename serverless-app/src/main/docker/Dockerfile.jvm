@@ -77,7 +77,8 @@
 #   accessed directly. (example: "foo.example.com,bar.example.com")
 #
 ###
-FROM registry.access.redhat.com/ubi8/openjdk-17:1.18
+# FROM registry.access.redhat.com/ubi8/openjdk-17:1.18
+FROM docker.io.openjdk:17-jdk-alpine
 ENV LANGUAGE='en_US:en'
 
 
