@@ -78,7 +78,7 @@
 #
 ###
 # FROM registry.access.redhat.com/ubi8/openjdk-17:1.18
-FROM openjdk:21-jdk-slim
+FROM docker.io/openjdk:17-jdk-alpine
 ENV LANGUAGE='en_US:en'
 
 
