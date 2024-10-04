@@ -11,7 +11,7 @@ public class GreetingResource {
 
     private static int count = 0;
 
-    @ConfigProperty(name = "msg", defaultValue = "Aula, ")
+    @ConfigProperty(name = "msg", defaultValue = "Aula , ")
     private String msg;
 
     @GET
